@@ -1,0 +1,13 @@
+.search-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+
+  &:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+}

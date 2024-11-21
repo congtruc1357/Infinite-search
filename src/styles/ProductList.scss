@@ -1,0 +1,39 @@
+.product-list {
+  padding: 20px;
+
+  .product-list_title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .search-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    .product-card {
+      .product-card_img {
+        width: 100%;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .product-card_title {
+        font-size: 16px;
+        margin: 10px 0;
+      }
+
+      .product-card_price {
+        font-size: 14px;
+        color: #007bff;
+      }
+    }
+  }
+}
